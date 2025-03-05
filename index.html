@@ -17,3 +17,130 @@
         <h1 class="banner-title">Bienvenidos al Club de Fans de Evangelion</h1>
     </div>
 </body>
+<!-- Texto en movimiento -->
+<marquee behavior="scroll" direction="left">¡Explora el mundo de los EVAs y únete a la conversación!</marquee>
+  
+<!-- Menú de Navegación -->
+<nav class="container">
+  <div class="row">
+    <div class="col-md-2 col-6"><a href="#inicio">Inicio</a></div>
+    <div class="col-md-2 col-6"><a href="#sobre-evangelion">Sobre Evangelion</a></div>
+    <div class="col-md-2 col-6"><a href="#personajes">Personajes</a></div>
+    <div class="col-md-2 col-6"><a href="#teorias">Teorías</a></div>
+    <div class="col-md-2 col-6"><a href="#galeria">Galería</a></div>
+    <div class="col-md-2 col-6"><a href="#descargas">Descargas</a></div>
+  </div>
+</nav>
+
+<!-- Sección Inicio -->
+<section id="inicio" class="content">
+  <h1>¡Bienvenidos al Club de Fans de Evangelion!</h1>
+  <p>Aquí encontrarás información, teorías y mucho más sobre esta increíble serie.</p>
+  <button class="retro-button" onclick="playSound()">Haz clic para sentir la nostalgia</button>
+  <audio id="nostalgia-sound" src="retro_sound.mp3"></audio>
+</section>
+
+<!-- Sección Sobre Evangelion -->
+<section id="sobre-evangelion" class="content">
+  <h2>Sobre Evangelion</h2>
+  <p>"Neon Genesis Evangelion" es una serie de anime que combina acción, drama y ciencia ficción, explorando la psicología de sus personajes y la complejidad de la existencia humana en un mundo amenazado por criaturas misteriosas llamadas Ángeles.</p>
+</section>
+
+<!-- Sección Personajes -->
+<section id="personajes" class="content">
+  <h2>Personajes Principales</h2>
+  <div class="container">
+    <div class="row">
+      <!-- Shinji Ikari -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card" style="background-color: #222; color: lime; border: 2px solid yellow; margin-bottom: 20px;">
+          <img src="shinji.jpg" class="card-img-top" alt="Shinji Ikari">
+          <div class="card-body">
+            <h5 class="card-title">Shinji Ikari</h5>
+            <p class="card-text">Protagonista de la serie, un adolescente que debe pilotar el EVA para proteger a la humanidad.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Rei Ayanami -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card" style="background-color: #222; color: lime; border: 2px solid yellow; margin-bottom: 20px;">
+          <img src="rei.jpg" class="card-img-top" alt="Rei Ayanami">
+          <div class="card-body">
+            <h5 class="card-title">Rei Ayanami</h5>
+            <p class="card-text">Misteriosa y enigmática, es una piloto de EVA con un pasado poco claro.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Asuka Langley Soryu -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card" style="background-color: #222; color: lime; border: 2px solid yellow; margin-bottom: 20px;">
+          <img src="asuka.jpg" class="card-img-top" alt="Asuka Langley Soryu">
+          <div class="card-body">
+            <h5 class="card-title">Asuka Langley Soryu</h5>
+            <p class="card-text">Una piloto carismática y decidida, conocida por su fuerte personalidad.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Kaworu Nagisa -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card" style="background-color: #222; color: lime; border: 2px solid yellow; margin-bottom: 20px;">
+          <img src="kaworu.jpg" class="card-img-top" alt="Kaworu Nagisa">
+          <div class="card-body">
+            <h5 class="card-title">Kaworu Nagisa</h5>
+            <p class="card-text">Un piloto enigmático que desempeña un papel crucial en la trama, con una presencia misteriosa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección Teorías -->
+<section id="teorias" class="content">
+  <h2>Teorías y Análisis</h2>
+  <p>Aquí los fans discuten y analizan diversos aspectos de la serie, desde interpretaciones psicológicas hasta teorías sobre el final.</p>
+  <ul style="list-style-type: square; text-align: left; display: inline-block;">
+    <li>Interpretaciones del final: ¿Es un sueño o la realidad?</li>
+    <li>El significado de los Ángeles y sus diseños.</li>
+    <li>Relaciones entre los personajes y sus simbolismos.</li>
+  </ul>
+</section>
+
+<!-- Sección Galería -->
+<section id="galeria" class="content">
+  <h2>Galería de Imágenes</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 mb-3">
+        <img src="galeria1.jpg" class="img-fluid rounded" alt="Imagen 1">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-3">
+        <img src="galeria2.jpg" class="img-fluid rounded" alt="Imagen 2">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-3">
+        <img src="galeria3.jpg" class="img-fluid rounded" alt="Imagen 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección Descargas -->
+<section id="descargas" class="content">
+  <h2>Descargas</h2>
+  <p>Descarga fondos de pantalla, iconos y otros recursos relacionados con Evangelion.</p>
+  <ul style="list-style-type: circle; text-align: left; display: inline-block;">
+    <li><a href="wallpaper1.jpg" style="color: cyan;">Fondo de pantalla 1</a></li>
+    <li><a href="wallpaper2.jpg" style="color: cyan;">Fondo de pantalla 2</a></li>
+    <li><a href="icons.zip" style="color: cyan;">Pack de iconos</a></li>
+  </ul>
+</section>
+
+<!-- JavaScript -->
+<script>
+  function playSound() {
+    document.getElementById('nostalgia-sound').play();
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
