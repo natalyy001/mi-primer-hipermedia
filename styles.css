@@ -1,3 +1,64 @@
-body{
-    background-color: azure;
-    font-size: 30px;
+body {
+    background-color: black;
+    color: lime;
+    font-family: 'UnifrakturMaguntia', serif;
+    text-align: center;
+  }
+  
+  .banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .nav a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid yellow;
+    background: darkblue;
+  }
+  
+  .nav a:hover {
+    background: red;
+    color: white;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .retro-button {
+    font-size: 18px;
+    color: yellow;
+    background: darkred;
+    border: 3px solid orange;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .retro-button:hover {
+    background: orange;
+    color: black;
+  }
